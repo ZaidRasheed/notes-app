@@ -39,7 +39,7 @@ export default function NoteList({ notes, tagsList, editTag, deleteTag }: NoteLi
                 <Col>
                     <h1>Notes</h1>
                 </Col>
-                <Col xs='auto'>
+                <Col xs='auto' className="mb-3">
                     <Stack gap={2} direction='horizontal'>
                         <Link to='/new'>
                             <Button variant='primary'>Create Note</Button>

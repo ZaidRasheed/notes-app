@@ -27,7 +27,7 @@ export default function Note({ deleteNote }: NoteProps) {
                         <Stack
                             gap={1}
                             direction="horizontal"
-                            className="flex-wrap"
+                            className="flex-wrap mb-2"
                         >
                             {note.tags.map(tag => (
                                 <Badge className="text-truncate" key={tag.id}>
