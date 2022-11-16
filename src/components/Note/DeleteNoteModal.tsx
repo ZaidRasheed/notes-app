@@ -19,7 +19,7 @@ export default function DeleteNoteModal({ deleteNote, id }: DeleteModalProps) {
     return (
         <>
             <Button variant='danger' onClick={() => setShowModal(true)}>Delete</Button>
-            <Modal show={showModal} onHide={() => setShowModal(false)}>
+            <Modal show={showModal} onHide={() => setShowModal(false)} centered>
                 <Modal.Header closeButton>
                     <Modal.Title>Delete</Modal.Title>
                 </Modal.Header>

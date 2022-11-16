@@ -21,7 +21,7 @@ export default function EditTagsModal({ editTag, deleteTag, tagsList }: EditModa
     return (
         <>
             <Button variant='outline-secondary' onClick={() => setShowModal(true)}>Edit Tags</Button>
-            <Modal show={showModal} onHide={() => setShowModal(false)}>
+            <Modal show={showModal} onHide={() => setShowModal(false)} centered>
                 <Modal.Header closeButton>
                     <Modal.Title>Edit Tags</Modal.Title>
                 </Modal.Header>
